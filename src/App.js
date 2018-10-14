@@ -11,7 +11,7 @@ class App extends Component {
             </header>
 
             <section id="stats" className="mt-4">
-                <h2>Details</h2>
+                <h2 className="text-info">Details</h2>
                 <table className="table table-dark rounded">
                     <tbody>
                     {createTable()}
@@ -20,7 +20,7 @@ class App extends Component {
             </section>
 
             <section id="origin" className="mt-4">
-                <h2>The Origin of {character}</h2>
+                <h2 className="text-info">The Origin of {character}</h2>
                 <p>{makeStory()}</p>
             </section>
         </div>
