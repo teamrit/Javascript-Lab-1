@@ -3,7 +3,7 @@ Random story generator written in Reactjs.
 
 To start app: 
 ```
-git clone 
+git clone https://github.com/teamrit/Javascript-Lab-1.git
 cd
 yarn install
 yarn start
